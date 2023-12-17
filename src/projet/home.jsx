@@ -100,6 +100,7 @@ export default function ProductList(){
                 <th>Category</th>
                 <th>image</th>
                 <th>Rating</th>
+                
             </tr>
         </thead>
         <tbody>
