@@ -173,15 +173,6 @@ export default function Contact(){
           <span className="circle two"></span>
 
         <form onSubmit={submitForm} onChange={handleChange} >
-        {Object.keys(errors).length>0?
-            <div className="alert alert-danger" role="alert">
-            <strong>Errors</strong>
-            <ul>
-                {displayErrors()}
-            </ul>
-            </div>
-            : ''
-        }
             <h3 className="title">Contact us</h3>
             <div className="input-container">   
               <input placeholder="username" type="text" id="name" className="input" ref={nameField} />
