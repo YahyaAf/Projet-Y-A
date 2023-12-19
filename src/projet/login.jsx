@@ -46,7 +46,7 @@ export default function Login() {
                 setPws(e.target.value)
             }}/>
             <input type="submit" value="Login" className="btn-submit" />
-            <span  onClick={handleClick}>I dont have acount ?</span>
+            <span onClick={handleClick}>I dont have acount ?</span>
             </>
             :
             <>
